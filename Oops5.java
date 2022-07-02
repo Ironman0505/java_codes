@@ -16,5 +16,6 @@ public class Oops5 {
     Stat s=new Stat();
     Stat p= new Stat();
     Stat q= new Stat();
+    // s.toString();
     }
 }
