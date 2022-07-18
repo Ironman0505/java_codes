@@ -20,7 +20,7 @@ class Str1{
             System.out.println("I do have..");
         }
         else System.out.println("I dont haveee");
-
+            sc.close();
         // =s.subSequence(3, 6);
         // System.out.println(sub2);
     }

@@ -1,4 +1,5 @@
 
+// array of objcts...
 class Chck{
     // Chck(String s){
     //     System.out.println(s);

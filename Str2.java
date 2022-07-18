@@ -17,7 +17,7 @@ System.out.println();
         sb.append(" world");
         System.out.println("after changes "+sb);
         sb.insert(3,'c');
-        sb.delete(5,8);
+        sb.delete(5,8);  //single idx diya tho frm that to last..
         sb.setCharAt(0, 'P');
         System.out.println("after changes "+sb);
         sc.close();
