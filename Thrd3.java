@@ -13,7 +13,7 @@ public void run(){
 try{
     for(int i=3;i>0;i--)
     {
-        System.out.println(" SNap inn "+i);
+        System.out.println(" SNap by Thorr inn "+i);
         Thread.sleep(1133);
     }
 }
@@ -37,7 +37,7 @@ public class Thrd3 {
         System.out.println("The ID of "+t+" is "+t.getId());
         try{
             for(int i=5;i>=0;i--){
-                System.out.println("val is "+i);
+                System.out.println("val of main is "+i);
                 Thread.sleep(1000);
                 // t.sleep(1000);
             }

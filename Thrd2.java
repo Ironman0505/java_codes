@@ -4,6 +4,7 @@ class MyThread extends Thread{
 Thread t;
 String sname;
  MyThread(String sname){
+    super(sname);
   this.sname=sname;
   System.out.println("The thread is : "+sname);
   System.out.println("Lets start itt");

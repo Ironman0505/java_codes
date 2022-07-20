@@ -5,4 +5,7 @@ public class Pkg2 {
         Resso sng=new Resso();
         sng.play();
     }
+
+    public void show() {
+    }
 }
