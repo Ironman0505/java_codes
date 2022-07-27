@@ -10,6 +10,8 @@ public class Thrd1 {
         t.setName("WizzardDD");
         System.out.println("And here comes the "+t);
         System.out.println("The ID of "+t+" is "+t.getId());
+        Thread.State st=Thread.currentThread().getState();
+        System.out.println("Thread state is "+st);
         try{
             for(int i=5;i>=0;i--){
                 System.out.println("val is "+i);
@@ -17,6 +19,7 @@ public class Thrd1 {
                 // t.sleep(1000);
             }
         }
+
         catch(InterruptedException e){
         System.out.println("MAinnnn thread interrupted  "+e);
         }

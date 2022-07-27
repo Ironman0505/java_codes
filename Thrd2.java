@@ -8,15 +8,14 @@ String sname;
   this.sname=sname;
   System.out.println("The thread is : "+sname);
   System.out.println("Lets start itt");
-  try{
-    //   start();
-    run();
-  }
-  catch(Exception e){
-      System.out.println("I am the error "+e);
-  }
-//   t.run();
-// t.start();
+  start();
+  // try{
+  //     start();
+  // }
+  // catch(Exception e){
+  //     System.out.println("I am the error "+e);
+  // }
+//   
  }
  public void run(){
      System.out.println("The run of thread is initiated");

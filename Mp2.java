@@ -14,10 +14,10 @@ public class Mp2 {
             mp.put(10, "Lumberjack");
 
         System.out.println("Using KeySet.... The following are being printed...");
-        Set<Integer> s = mp.keySet();
+        Set<Integer> s = mp.keySet(); //returns set of keys
 
         for (int val : s)
-            System.out.print(val + " ");
+            System.out.print(mp.get(val) + " ");   // order is maintained if its Linked hashset
 
         System.out.println();
 
@@ -26,23 +26,25 @@ public class Mp2 {
         for (Map.Entry<Integer, String> o : mp.entrySet())
             System.out.println(o.getKey() + " " + o.getValue());
 
-        System.out.println("Using Iterator.... The following are being printed...");
-        Iterator it = s.iterator();
+        // System.out.println("Using Iterator.... The following are being printed...");
+        // Iterator it = s.iterator();   // s is set of keys obtained from mp.keySet();
 
-        while (it.hasNext())
-            System.out.print(it.next() + " ");
-
-        System.out.println("Using Iteratorrr for Entryset.... The following are being printed...");
-
+        // while (it.hasNext()){
+        //     System.out.println(it.next()+" "+mp.get(it.next()));
+        // }
+   System.out.println();
+   System.out.println();
+       
+System.out.println("Using entryset");
         Set<Map.Entry<Integer, String>> eo = mp.entrySet();
         System.out.println(eo);
-
-        System.out.println("======>>>> USING FOR EACH TO ENTRY SET <<<<<=====");
+        System.out.println();
+        System.out.println("         ======>>>> USING FOR EACH TO ENTRY SET <<<<<=====");
 
         for (Map.Entry<Integer, String> obj : eo)
             System.out.println(obj.getKey() + " " + obj.getValue());
-
-        System.out.println("Using Iteratorrrrr ==>>");
+            System.out.println();
+        System.out.println("      Using Iteratorrrrr ==>>");
         Iterator itt = eo.iterator();
 
         while (itt.hasNext())
