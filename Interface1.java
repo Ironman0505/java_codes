@@ -13,6 +13,11 @@ public  void attack(){
         System.out.println("Blast INITIATEDDD!!!");
     }
 }
+class Royale implements Wiz{
+    public void blast(){
+System.out.println("Blast.. boom");
+    }
+}
 
 public class Interface1 {
 

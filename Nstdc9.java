@@ -1,3 +1,6 @@
+
+// Local inner class
+
 class Outer{
     int y=66;
     void getin(){

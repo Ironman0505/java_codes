@@ -6,6 +6,9 @@ public class Nstdc8 {
     void show(){
         System.out.println("My "+s+" "+a);
     }
+    static void st(){
+        System.out.println("I am static");
+    }
     }
 
    static void copyright(){
@@ -14,6 +17,7 @@ public class Nstdc8 {
     }
     public static void main(String[] args) {
         Inner n= new Inner();
+        Inner.st();
         n.show();
         copyright();
         System.out.println("The value of static var is "+vall);

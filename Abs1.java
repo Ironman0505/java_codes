@@ -6,6 +6,7 @@ abstract class Mthd{
 }
 
 class M1 extends Mthd{
+
     void fn(){
         System.out.println("M1 ka creation...");
     }
