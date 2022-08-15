@@ -14,8 +14,6 @@ public class Stoken {
             ls.add(x);
             // System.out.println("Remaining tokens "+st.countTokens());
         }
-    // int [] ar=new int[5];
-    Collections.sort(ls);
     
       for(String str : ls){
         System.out.print(str+" ");

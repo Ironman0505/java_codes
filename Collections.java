@@ -197,6 +197,7 @@ class Sett{
         System.out.println("The hashset is "+hs);   // o/p can be -- 17 30 20 40 10
 
         hs.remove(30);
+    
 // Enumeration<Integer> e=Collections.Enumeration(hs);
 // while(e.hasMoreElements()){
 //     System.out.println(e.nextElement());
@@ -226,7 +227,6 @@ class Lsett{
         lhs.add(17);
         lhs.add(17);
         lhs.add(17);
-        
        
         System.out.println("The hashset is "+lhs);   // o/p : 20 30 40 10 17
         lhs.remove(17);
@@ -249,7 +249,6 @@ class Tsett{
         ts.add(17);
         ts.add(17);
         ts.add(17);
-    
         System.out.println("The hashset is "+ts);  // op : 10 17 20 30 40
 
         //other methods are common...
@@ -279,6 +278,8 @@ hm.remove(2);
 if(hm.containsKey(1)){
     System.out.println(hm.get(1));
 }
+Collection<String> cl=hm.values();
+System.out.println(cl);
 if(hm.containsValue("Cobra")){
     System.out.println("Cobra is present");
 }
@@ -331,26 +332,16 @@ class TMapp{
 
 public class Collections {
     public static void main(String[] args) {
-        new Array_List();
+        // new Array_List();
         // // new Linked_List();
         // new Vectorr();
         // new Stackk();
         // new Sett();
         // new Lsett();
         // new Tsett();
-        // new Mapp();
+        new Mapp();
         // new TMapp();
-        new LL();
+        // new LL();
     }
 
-    public static Enumeration<Integer> Enumeration(HashMap<Integer, String> m) {
-        return null;
-    }
-
-    public static java.util.Enumeration<Integer> enumeration(HashMap<Integer, String> m) {
-        return null;
-    }
-
-    public static void sort(List<String> ls) {
-    }
 }

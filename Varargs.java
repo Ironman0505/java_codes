@@ -19,6 +19,7 @@ System.out.println("The sum is "+sum);
     }
     public static void main(String[] args) {
         fn(1,2,3,4,5,6);
+        fn(1,2,3,4);
         fn2(10,11,12,13,15,16);
     }
 }

@@ -1,7 +1,7 @@
 import Music.*;
 
  class Msc implements Selctn{
-  public void order(){
+public void order(){
          System.out.println("Heroos of tamil industry");
   }
 

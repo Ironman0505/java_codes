@@ -8,7 +8,8 @@ public class Srtd_names {
          System.out.println("Enter "+n+" names : ");
          String s[] = new String[n];
          for(int i=0;i<n;i++){
-            s[i]=sc.next();
+            s[i]=sc.next(); //single word input
+            
          }
          for(int i=0;i<n-1;i++){
             for(int j=i+1;j<n;j++){
